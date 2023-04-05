@@ -1,6 +1,6 @@
 import style from "./SearchBar.module.css"
 import { useState } from "react"
-import { useDispatch, useSelector } from "react-redux"
+import { useDispatch } from "react-redux"
 import { searchRecipes } from "../../Redux/actions";
 
 export default function SearchBar() {
