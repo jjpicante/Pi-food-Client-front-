@@ -1,0 +1,107 @@
+.loading{
+    color:white;
+    font-family: cursive;
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    background-image: url("./Fondo\ detail.jpg");
+    width: 100%;
+    height: 1300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    color: white;
+}
+
+
+.containUno{
+    background-color:transparent;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border:solid goldenrod;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    position:absolute;
+    top:120px;
+    left: 40px;
+    width: 900px;
+}
+.steps{
+    background-color:transparent;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border:solid goldenrod;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.id{
+    display: none;
+}
+
+.summary{
+    background-color: rgb(96, 110, 110);
+    font-size:large;
+    margin: 20px;
+    border: solid goldenrod;
+    border-radius: 20px; 
+}
+
+.steps{
+    display:flex;
+    align-items:  center;
+    flex-direction: column;
+    margin:20px 0 20px 0;
+    border: solid goldenrod;
+    border-radius: 20px; 
+    padding: 10px;
+    width: 900px;
+    font-size: large;
+    position: absolute;
+    left: 40px;
+    top: 800px
+
+}
+
+.diets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1150px;
+    position: absolute;
+    top: 120px;
+    left: 980px;
+}
+
+.diet{
+    border: solid goldenrod 6px;
+    border-radius: 20px;
+    margin: 80px;
+    padding: 2px;
+    width:fit-content;
+    font-size: xxx-large; 
+}
+
+.healthScore{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left: 770px;
+    top: 45px;
+    font-size: xxx-large;
+}
+.image{
+    width: 550px;
+    border-radius: 20px;
+}

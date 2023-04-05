@@ -1,0 +1,37 @@
+.bodyHome{
+    background-image: url("./Imagen\ de\ home.jpg");
+    width: 100%;
+  height: 1300px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+  
+.cardsContent{
+    
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.filtros{
+    display: flex;
+    margin-left: 20px;
+}
+.paginado{
+    display: flex;
+    justify-content: center;
+}
+
+.loading{
+    color:white;
+    font-family: cursive;
+    display:flex;
+    justify-content: center;
+}
+
+.NavLink{
+    text-decoration: none;
+}
+

@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+.body{
+  background-image: url("./React/Home/Imagen\ de\ home.jpg");
+  width: 100%;
+height: 1130px;
+position: absolute;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+
+/* {
+  background-image: url("./React/Home/Imagen\ de\ home.jpg");
+  width: 100%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ */

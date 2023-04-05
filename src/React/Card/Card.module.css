@@ -1,0 +1,42 @@
+.card{
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    display:flex;
+    border: solid black;
+    border-radius: 20px;
+    width: 330px;
+    height: 450px;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    }
+.diets{
+    display: flex;
+    flex-wrap: wrap;
+}    
+
+.diet{
+    border: solid black;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 2px; 
+    font-size: large;
+    color: white;
+}
+.img{
+    width:340px; 
+    height:240px;
+    border-radius: 20px    
+}
+.name{
+    color: white;
+    font-size:larger;
+}
+.card:hover{
+    background-color:darkgoldenrod
+}
+.name:visited{
+    color:white
+}
