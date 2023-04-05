@@ -18,7 +18,7 @@ import axios from 'axios'
 
 export const getRecipes = () => {
     return async (dispatch) => {
-        let response = await axios.get("http://localhost:3001/recipes")
+        let response = await axios.get("https://servidor-food.onrender.com/recipes")
         dispatch({
             type: GET_RECIPES,
             payload: response.data,
@@ -28,7 +28,7 @@ export const getRecipes = () => {
 
 export const getDiets = () => {
     return async (dispatch) => {
-        let response = await axios.get("http://localhost:3001/diets")
+        let response = await axios.get("https://servidor-food.onrender.com/diets")
         dispatch({
             type: GET_DIETS,
             payload: response.data,
@@ -39,7 +39,7 @@ export const getDiets = () => {
 export const searchRecipes = (name) => {
     return async (dispatch) => {
         try {
-            let response = await axios.get(`http://localhost:3001/recipes?name=${name}`)
+            let response = await axios.get(`https://servidor-food.onrender.com/recipes?name=${name}`)
             dispatch({
                 type: SEARCH_RECIPES,
                 payload: response.data,
@@ -86,7 +86,7 @@ export const sortByHs = (payload) => {
 
 export const getDetail = (id) => {
     return async (dispatch) => {
-        let response = await axios.get(`http://localhost:3001/recipes/${id}`)
+        let response = await axios.get(`https://servidor-food.onrender.com/recipes/${id}`)
         dispatch({
             type: GET_DETAIL,
             payload: response.data,
@@ -103,7 +103,7 @@ export const cleanDetail = () => {
 
 export const postRecipes = (form) => {
     return async (dispatch) => {
-        var json = await axios.post("http://localhost:3001/recipes", form, {
+        var json = await axios.post("https://servidor-food.onrender.com/recipes", form, {
         });
         dispatch({
             type: POST_RECIPE,
